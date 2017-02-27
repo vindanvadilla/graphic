@@ -333,7 +333,7 @@ public class about extends javax.swing.JFrame {
 
     private void menu_keluarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menu_keluarMouseClicked
         // TODO add your handling code here:
-        int pilih = JOptionPane.showConfirmDialog(this, "Yakin ingin Keluar Aplikasi?","Keluar",JOptionPane.YES_NO_OPTION);
+        int pilih = JOptionPane.showConfirmDialog(this, "Yakin ingin Keluar Aplikasi apa gak?","Keluar",JOptionPane.YES_NO_OPTION);
         if(pilih == JOptionPane.YES_OPTION){
             new login_operator().setVisible(true);
             dispose();

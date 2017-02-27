@@ -10,7 +10,7 @@ public class koneksi {
             con=DriverManager.getConnection("jdbc:mysql://localhost:3306/laundry","root","");
 //            JOptionPane.showMessageDialog(null, "Sukses Koneksi");
         }catch(SQLException e){
-            JOptionPane.showMessageDialog(null, "Gagal Koneksi");
+            JOptionPane.showMessageDialog(null, "no nono Gagal Koneksi");
         }
         return con;
     }   
